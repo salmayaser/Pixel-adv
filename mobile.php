@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>PIXEL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="100x100" href="assets/images/logo.jpg">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fontawesome-free-5.9.0-web/css/all.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <?php
+    include "navbar.html"
+    ?>
+
+    <div class="Our-Work mb-5">
+        <header>
+            <div class="overlay">
+                <div class="content">
+                    <h1>Mobile APPLICATIONS</h1>
+                </div>
+            </div>
+        </header>
+
+        <div class="Works">
+            <div class="row container m-auto " id="projectsContainer">
+          
+
+
+
+            </div>
+        </div>
+    </div>
+
+        <!-- Scroll Top -->
+
+        <a pageScroll  onclick="scrollToTop()" class="scroll" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <div id ="pop">
+        <div class="pop">
+            <i class="fas fa-times" id="times"></i>
+            <p>Sorry this Applicaton doesn't have an IOS version right now </p>
+        </div>
+    </div>
+
+    <!-- End Scroll Top -->
+
+    <?php
+    include "footer.html"
+    ?>
+
+ 
+
+
+    
+    <!--scripts-->
+    <script src="JS/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/wow.min.js"></script>
+    <script src="JS/Mobile.js"></script>
+</body>
+
+</html>
